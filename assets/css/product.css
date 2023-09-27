@@ -1,0 +1,128 @@
+body {
+    text-align: center;
+    /* background-color: rgba(125, 56, 123, 0.5); */
+    background-color: #83d7ec;
+    background-image: url('https://img.freepik.com/fotos-premium/habitacion-blanca-techo-que-tiene-mucha-luz_689904-132310.jpg');
+    /* La URL de la imagen de fondo */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: #333; /* Cambié el color del texto a un gris oscuro para mejorar la legibilidad */
+    font-family: 'Archivo', sans-serif;
+    font-weight: normal; /* Cambié el peso de la fuente a "normal" para una mejor legibilidad */
+    font-size: 18px; /* Reduje el tamaño de fuente para una mejor legibilidad */
+    line-height: 1; /* Añadí un espaciado entre líneas para una mejor legibilidad */
+}
+
+blockquote {
+    width: 97%;
+    height: auto;
+    background: #042A2B;
+    background-size: cover;
+    background-position: center;
+    color: #F0EFF4 ;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: -3% auto;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative; /* Agrega posición relativa para colocar el contenido del bloque */
+}
+
+blockquote {
+    width: 97%;
+    height: auto;
+    background: white;
+    background-size: cover;
+    background-position: center;
+    color: #050505 ;
+    font-family: 'Archivo', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: -3% auto;
+    padding: 20px;
+    border-radius: 3px;
+    position: relative; /* Agrega posición relativa para colocar el contenido del bloque */
+}
+
+
+table {
+    width: 99%;
+    height: auto;
+    background: #9df0f3;
+    color: #050505;
+    margin: -3% auto;
+    padding: 20px;
+    border-radius: 60px;
+    border-collapse: auto;
+}
+
+/* Estilos para el botón de Google */
+.boton-Google {
+    background-color: #a218f2; /* Color de fondo de Facebook */
+    color: white; /* Color del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambio de cursor al pasar el ratón */
+    font-weight: bold; /* Texto en negrita */
+}
+
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 350px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    font-family: 'Archivo', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

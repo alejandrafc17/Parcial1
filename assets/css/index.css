@@ -1,0 +1,136 @@
+body {
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    font-weight: normal;
+    font-style: italic;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.header {
+    background-color: #9b98e8;
+    color: black;
+    padding: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.header:hover {
+    background-color: antiquewhite;
+}
+
+main {
+    padding: 0;
+}
+
+a:hover {
+    background-color: #9b98e8;
+    color: black;
+    font-size: 20px;
+}
+
+a:focus {
+    background-color: #9b98e8;
+    color: black;
+    font-size: 20px;
+}
+
+.product {
+    /* border: 2px dashed #ccc; */
+    /* border-style: dashed; */
+    outline: 3px dotted black;
+    background-color: #fff;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px 5px;
+    box-shadow: 0 15px 20px rgb(0, 0, 0, 0.5);
+    display: inline-block;
+    text-decoration: underline;
+}
+
+.product-background {
+    /* background-color: green; */
+    background-image: url("https://img.freepik.com/foto-gratis/fondo-acuarela-pintada-mano-forma-cielo-nubes_24972-1095.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p::after {
+    content: "<<";
+    margin-left: 3px;
+}
+
+p::first-letter {
+    font-size: 30px;
+    color: #9b98e8;
+}
+
+section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 20 auto;
+    padding: 30px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+    background-position: center center;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 4px;
+    font-family: 'Archivo', sans-serif;
+    background-position: center center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 90%;
+    padding: 30px;
+    margin-bottom: 30spx;
+    border: 3px solid #ccc;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'Archivo', sans-serif;
+    background-position: center center;
+}
+
+textarea {
+    resize: vertical;
+    background-position: center center;
+}
+
+input[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 30px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    background-position: center center;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+    background-position: center center;
+}
